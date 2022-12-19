@@ -8,7 +8,6 @@ const phrasesPromise: Promise<Phrase[]> = new Promise(resolve => {
     resolve(PHRASES);
   }, 2000);
 });
-
 @Injectable({
   providedIn: 'root'
 })
